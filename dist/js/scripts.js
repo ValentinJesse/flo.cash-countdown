@@ -17,7 +17,7 @@ $(function() {
     // 1. COUNTDOWN
     $('.countdown').downCount({
         date: '12/22/2017 23:59:59', // Change this time
-        offset: +10
+        offset: +1
     }, function() {
         alert('WOOT WOOT, done!'); // Finish Message
 
